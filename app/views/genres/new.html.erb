@@ -1,0 +1,7 @@
+<h1>Create Genre</h1>
+<%= form_for :genre, as: :genre, url: genres_path do |f| %>
+  <%= f.label "Name" %><br>
+  <%= f.text_field :name %><br>
+
+  <%= f.submit "Create Genre" %>
+<% end %> 
